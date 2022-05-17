@@ -37,3 +37,47 @@ header a {
 header a:hover {
     box-shadow: inset 0 -2px 0 0 #FFFFFF;
 }
+
+
+/* main div */
+
+#main {
+    display: flex;
+    margin: 4em 2em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#image-placeholder {
+    width: 600px;
+    height: 300px;
+    background-color: antiquewhite;
+
+}
+
+#callaction h1 {
+    margin: 1em 0em;
+}
+
+
+#callaction a {
+    margin: 2em 0em;
+    text-decoration: none;
+    background-color: #3882F6;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    border-radius: 10px;
+
+}
+
+
+#callaction p {
+    margin: 2em 0em;
+}
+
+#image-placeholder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
