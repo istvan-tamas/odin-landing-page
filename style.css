@@ -19,11 +19,12 @@ header {
 header h1 {
     color: #FFFFFF;
     display: flex;
-    margin:0 1em;
+    margin: 0 5em;
 }
 
 header nav {
     display: flex;
+    margin: 0 5em;
 }
 
 header a {
@@ -43,7 +44,7 @@ header a:hover {
 
 #main {
     display: flex;
-    margin: 4em 2em;
+    margin: 4em 5em;
     justify-content: space-between;
     align-items: center;
 }
