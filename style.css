@@ -82,3 +82,36 @@ header a:hover {
     align-items: center;
     justify-content: center;
 }
+
+/* cards */
+
+#main-title{
+    text-align: center;
+}
+
+#cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2em 5em;
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    border: 2px solid #3882F6;
+}
+
+#card-subtext{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 5em;
+}
+
+.card-text{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+}
