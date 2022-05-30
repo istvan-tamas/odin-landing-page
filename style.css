@@ -61,7 +61,7 @@ header a:hover {
 }
 
 
-#callaction a {
+.signup {
     margin: 2em 0em;
     text-decoration: none;
     background-color: #3882F6;
@@ -143,4 +143,13 @@ header a:hover {
     text-align: right;
     font-size: smaller;
     font-style: normal;
+}
+
+
+/* call to action */
+
+#calltoaction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
