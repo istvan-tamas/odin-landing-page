@@ -125,3 +125,22 @@ header a:hover {
     height: 150px;
     text-align: center;
 }
+
+
+
+/* main quote */
+
+
+#main-quote {
+    margin: 1em auto;
+    width: 1000px;
+    padding: 2em 0;
+    font-size: 36px;
+    font-style: italic;
+}
+
+#main-quote p {
+    text-align: right;
+    font-size: smaller;
+    font-style: normal;
+}
