@@ -152,4 +152,17 @@ header a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 2em auto;
+    width: 1000px;
+    padding: 2em 4em;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 10px;
+}
+
+#calltoaction a {
+    background-color: #3882F6;
+    border: 2px solid #E5E7EB;
+    border-radius: 10px;
+    padding: 0.5em 2em;
 }
