@@ -81,6 +81,7 @@ header a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 20px;
 }
 
 /* cards */
@@ -89,11 +90,18 @@ header a:hover {
     text-align: center;
 }
 
+#main-content{
+    padding-top: 2em;
+    background-color: #E5E7EB;
+    box-shadow: 2px 2px 10px;
+}
+
 #cards {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 2em 5em;
+    margin: 2em auto;
+    width: 800px;
 }
 
 .card {
@@ -101,13 +109,15 @@ header a:hover {
     height: 150px;
     border-radius: 20px;
     border: 2px solid #3882F6;
+    background-color: #F9FAF8;
 }
 
 #card-subtext{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1em 5em;
+    margin: 1em auto;
+    width: 800px;
 }
 
 .card-text{
